@@ -1,0 +1,71 @@
+/* shared section */
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* nav section */
+
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.nav-container{
+    display: flex;
+    align-items: center; 
+    max-width: 1400px;
+    padding-left: 150px;
+}
+
+.nav-logo{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.nav-logo img{
+   height: 50px;
+  
+   object-fit:fill;
+    margin-right: 20px;
+}
+
+.nav-logo p{
+    font-size: 40px;
+    font-weight: 700;
+   
+}
+
+.G-section{
+    color: #FF42A5;
+}
+
+.nav-content{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.nav-content a{
+    text-decoration: none;
+    color:#3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-content-icon{
+    margin-right:50px;
+    background-color: rgba(11, 2, 35, 0.10);
+    border-radius:8px;
+    padding:16px 20px;
+}
+
+.nav-content-icon .fa-brands{
+    padding-left:5px;
+}
+
