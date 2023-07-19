@@ -69,3 +69,28 @@ nav{
     padding-left:5px;
 }
 
+/* banner section */
+
+@media screen and (max-width:576px) {
+
+   .nav-container,  .nav-content{
+        flex-direction: column;
+    }
+    .nav-container{
+        padding-top: 20px;
+        padding-left: 8px;
+    }
+    .nav-logo{
+            padding-right: 100px;
+    }
+    .nav-content a{
+          padding-bottom: 20px;
+    }
+
+    .nav-content-icon{
+        margin-left:50px;
+        width: 100%;
+    }
+
+}
+
