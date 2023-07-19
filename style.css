@@ -233,6 +233,75 @@ nav{
     
 }
 
+/* icon section */
+
+.icon-container{
+ 
+}
+
+.icon-5{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.icon-5-imgs{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.icon-5-imgs:hover{
+        border:1px solid palevioletred;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 50px;
+        padding:10px;
+        transition: 1s;
+}
+
+.icon-5-imgs p{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.icon-4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.icon-4-imgs p{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.icon-4-imgs{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    
+}
+
+.icon-4-imgs:hover{
+        border:1px solid palevioletred;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-radius: 50px;
+        padding:10px;
+        transition: 1s;
+}
+
+/* footer section */
+
   /* responsive section  */
 
 @media screen and (max-width:576px) {
