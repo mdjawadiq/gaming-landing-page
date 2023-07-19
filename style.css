@@ -78,6 +78,12 @@ nav{
     
 }
 
+.banner-content{
+    background: url(images/Group\ 14.png);
+    width:800px;
+    
+    padding:50px 0px 70px 150px;
+}
 
 .banner-content h3{
     color:#0B0223;
@@ -112,6 +118,12 @@ nav{
 
 .banner-img{
     max-width: 710px;
+    
+}
+
+.banner-img img{
+    width: 600px;
+    padding-right: 100px;
 }
 
 .btn-sign-in{
@@ -139,13 +151,12 @@ nav{
 /* game section */
 
 .game-container{
-    display: grid;
-    justify-content: space-evenly;
-    
+   
 }
 .game-content{
     text-align: center;
     margin-top: 100px;
+   
 }
 
 .game-content span{
@@ -162,20 +173,24 @@ nav{
    
 }
 
-.game-imgs-p {
-   display: flex;
-   justify-content: space-between;
-   padding-right: 50px;
+.game-imgs-container {
+    display: flex;
+    justify-content: space-evenly;
+    
 }
-.game-imgs img{
-    width: 280px;
-    padding-right: 15px;
+
+
+.game-imgs-container img{
+    width: 250px;
     margin-top: 40px;
+    
 }
 
 
 
-          
+
+
+  /* responsive section  */
 
 @media screen and (max-width:576px) {
 
@@ -204,7 +219,7 @@ nav{
 }
 
 .banner-img img{
-    width: 400px;
+    width: 350px;
 }
 
 .banner-content h1{
@@ -215,6 +230,15 @@ nav{
 .banner-content h3{
     font-size: 38px;
     text-align: center;
+}
+
+.game-content h2{
+    font-size:28px;
+    padding: 0px 10px;
+}
+
+.game-content p{
+    font-size: 13px;
 }
 
 }
