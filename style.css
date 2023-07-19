@@ -186,9 +186,52 @@ nav{
     
 }
 
+/* play section */
 
+.play-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.play-content{
+    text-align: right;
+    
+    
+}
 
+.play-content h2{
+    font-size: 45px;
+    
+}
+
+.play-content span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    
+    
+}
+
+.play-imgs{
+    margin-top:150px;
+}
+
+.play-imgs img{
+    width: 500px;
+}
+
+.play-img-2{
+    position: relative;
+    bottom:190px;
+    right:100px;
+}
+
+.play-img-2 img{
+    width:250px;
+    
+}
 
   /* responsive section  */
 
