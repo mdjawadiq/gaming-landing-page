@@ -150,9 +150,6 @@ nav{
 
 /* game section */
 
-.game-container{
-   
-}
 .game-content{
     text-align: center;
     margin-top: 100px;
@@ -209,8 +206,6 @@ nav{
     background-clip: text;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-
-    
     
 }
 
@@ -369,6 +364,7 @@ nav{
     .nav-content-icon{
         margin-left:50px;
         width: 100%;
+        margin-bottom: 20px;
     }
 
     .banner-container{
@@ -381,9 +377,13 @@ nav{
     padding-left: 90px;
 }
 
+.banner-content{
+    width: 500px;
+    margin-right: 100px;
+}
+
 .banner-content h1{
     font-size: 70px;
-    text-align: center;
 }
 
 .banner-content h3{
@@ -399,5 +399,22 @@ nav{
 .game-content p{
     font-size: 13px;
 }
+
+.game-imgs-container{
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.play-container{
+    flex-direction: column;
+}
+.play-imgs img{
+    width: 250px;
+}
+
+.play-imgs .play-img-2{
+    width: 100px;
+}
+  
 
 }
