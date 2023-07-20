@@ -80,7 +80,7 @@ nav{
 
 .banner-content{
     background: url(images/Group\ 14.png);
-    width:800px;
+    width:900px;
     padding:50px 0px 70px 150px;
 }
 
@@ -148,6 +148,44 @@ nav{
     
 }
 
+/* we are gamer section */
+
+.gamer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 20px;
+}
+
+.gamer-img img{
+    width:700px
+}
+
+.gamer-content{
+    text-align:right;
+    padding-right: 90px;
+}
+
+.gamer-content h2{
+    font-size: 45px;
+    color:#F948B2;
+}
+
+.gamer-content p{
+    font-size: 20px;
+    font-weight: 500;
+    color:#534C64;
+    
+}
+
+.gamer-content span{
+    font-size:32px;
+    font-weight: 700;
+}
+
+
+
+
 /* game section */
 
 .game-content{
@@ -172,7 +210,8 @@ nav{
 
 .game-imgs-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
     
 }
 
