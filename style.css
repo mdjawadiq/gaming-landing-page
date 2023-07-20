@@ -209,9 +209,10 @@ nav{
 }
 
 .game-imgs-container {
-    display: flex;
+    display: grid;
     justify-content: center;
     gap: 20px;
+    display: flex;
     
 }
 
@@ -412,7 +413,7 @@ nav{
 
 @media screen and (max-width:576px) {
 
-   .nav-container,  .nav-content{
+   .nav-container,  .nav-content, .gamer-container, .play-container{
         flex-direction: column;
     }
     .nav-container{
@@ -433,53 +434,58 @@ nav{
     }
 
     .banner-container{
-        flex-direction:column-reverse;
-        margin-top: 60px;
-}
+        flex-direction: column-reverse;
+    }
 
-.banner-img img{
-    width: 500px;
-    padding-left: 90px;
-}
+    .banner-content{
+        text-align: center;
+        padding-right: 140px;
+    }
 
-.banner-content{
-    width: 500px;
-    margin-right: 100px;
-}
+    .banner-content h1{
+        font-size: 60px;
+    }
 
-.banner-content h1{
-    font-size: 70px;
-}
+    .banner-content h3{
+        font-size: 40px;
+        padding-right: 20px;
+    }
 
-.banner-content h3{
-    font-size: 38px;
-    text-align: center;
-}
+    .banner-img img{
+        width: 400px;
+        margin-left: 100px;
+    }
 
-.game-content h2{
-    font-size:28px;
-    padding: 0px 10px;
-}
+    .gamer-img img{
+        width: 400px;
+    }
 
-.game-content p{
-    font-size: 13px;
-}
+    .gamer-content{
+        text-align: center;
+        padding-left: 90px;
+    }
 
-.game-imgs-container{
-    flex-direction: column;
-    margin-left: 80px;
-}
+    .game-imgs-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-.play-container{
-    flex-direction: column;
-}
-.play-imgs img{
-    width: 250px;
-}
+    .play-imgs img{
+        width: 300px;
+    }
 
-.play-imgs .play-img-2{
-    width: 100px;
-}
-  
+    .play-img-2 img{
+        width: 150px;
+    }
+
+    .play-content{
+       text-align: center;
+    }
+
+
+    .footer-container{
+        width: 420px;
+        padding:0px 30px
+    }
 
 }
+    
