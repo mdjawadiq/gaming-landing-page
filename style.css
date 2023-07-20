@@ -215,6 +215,32 @@ nav{
     
 }
 
+.game-imgs{
+     position:relative;
+     display: inline-block;
+     
+}
+
+.game-imgs .video-icon{
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      background-color:#fff;
+      color:#fff;
+      font-size:24px;
+      padding:10px;
+      border-radius: 50%;
+}
+
+.video-icon i{
+    color:rgba(0,0,0,0.5);    
+}
+
+.video-icon:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
 
 .game-imgs-container img{
     width: 250px;
